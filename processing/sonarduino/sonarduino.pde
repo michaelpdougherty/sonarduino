@@ -106,7 +106,7 @@ void updateLabels() {
    text("Humidity:", 10, 140);
    fill(0);
    text(currentDistance + " cm  /  " + nf(currentDistanceIn, 0, 2) + " in", 130, 90);
-   text(currentTemp + " C  /  " + currentTempF + " F", 130, 115);
+   text(currentTemp + " C  /  " + nf(currentTempF, 0, 1) + " F", 130, 115);
    text(currentHumidity + "%", 130, 140);
 }
   
