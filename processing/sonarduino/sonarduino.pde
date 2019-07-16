@@ -9,7 +9,8 @@ final int LINE_FEED = 10;
 // Set communication rate
 final int BAUD_RATE = 9600;
 // Get last element in serial port list
-String arduinoPortName = Serial.list()[Serial.list().length - 1];
+//String arduinoPortName = Serial.list()[Serial.list().length - 1];
+String arduinoPortName = "COM9";
 // Create objects
 Serial arduinoPort;
 SensorData sensorData;

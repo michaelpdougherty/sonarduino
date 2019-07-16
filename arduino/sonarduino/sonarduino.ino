@@ -1,14 +1,13 @@
 #include <dht.h>
 
 const unsigned int TEMP_PIN = 7;
-const float SUPPLY_VOLTAGE = 5.0;
 const unsigned int TRIG_PIN = 11;
 const unsigned int ECHO_PIN = 12;
 const float SENSOR_GAP = 0.2;
 const unsigned int BAUD_RATE = 9600;
 float current_temperature = 0.0;
 float current_distance = 0.0;
-const unsigned int DELAY = 1100;
+const unsigned int DELAY = 1500;
 
 dht DHT;
 
